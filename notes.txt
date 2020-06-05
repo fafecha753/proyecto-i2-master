@@ -1,0 +1,21 @@
+-components: partes de vuejs
+-index.js: logica del frontend
+-index.html para la interpretación de js
+-webpack.config.js le dice la configuración a webpack para que convierta
+el codigo de vue a js para el navegador
+-babel loader: para entender codigo de js moderno
+-babel-env: traduce a un js que el navegador pueda entender
+-webpack-dev-server: servidor de desarrollo que convierte el codigo con codigo
+cpn cada cambio
+-html-webpack-plugin: se encarga del bundle
+-Babel/Polyfill para los async y await sino no sirven
+
+
+
+
+respaldo .babelrc
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
